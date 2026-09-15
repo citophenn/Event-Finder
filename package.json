@@ -1,0 +1,21 @@
+{
+  "name": "eventshub",
+  "version": "1.0.0",
+  "description": "discover local events, venues they take place in and reviews from customers",
+  "license": "ISC",
+  "author": "joshua.eme05@gmail.com",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2"
+  }
+}
